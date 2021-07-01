@@ -83,6 +83,8 @@ public class Admin implements Serializable, UserDetails {
                         .map(role -> new SimpleGrantedAuthority(role.getName()))
                         .collect(Collectors.toList());
         System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
         return authorities;
     }
 
