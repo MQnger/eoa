@@ -87,6 +87,7 @@ public class Admin implements Serializable, UserDetails {
         System.out.println("3");
         System.out.println("555");
         System.out.println("测试提交GitHUb");
+           System.out.println("GitHUb修改");
         return authorities;
     }
 
